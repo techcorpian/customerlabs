@@ -1,0 +1,83 @@
+/* DropdownComponent.css */
+
+/* Container styling */
+.middle-container {
+
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid blue;
+  }
+
+  .bottom-container {
+
+    margin: 0 auto;
+    padding: 10px;
+    
+
+  }
+
+  .top-container {
+
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    
+
+  }
+
+  .save-container {
+
+    margin: 0 auto;
+    padding: 30px 20px;
+    width: 100%;
+    background-color: #f6f6f6;
+
+  }
+  
+  /* Schema dropdown and button container */
+  .schema-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Individual dropdown styling */
+  .dropdown-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Dropdown styling */
+  select {
+    padding: 10px;
+    margin-right: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  /* Option styling */
+  select option {
+    padding: 8px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  /* Delete button styling */
+  .delete-button {
+    cursor: pointer;
+  }
+  
+  /* Save button styling */
+  .save-button {
+    padding: 12px;
+    background-color: #4fb695;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
